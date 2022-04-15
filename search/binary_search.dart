@@ -31,7 +31,9 @@ void main() {
   List list = [0, 1, 1, 2, 3, 5, 6, 6, 8, 13, 21, 23, 34, 55, 89];
   int x = 23;
   List list1 = [12, 23];
+  List list3 = [23];
 
   run_binary_search(list, x);
   run_binary_search(list1, x);
+  run_binary_search(list3, x);
 }
